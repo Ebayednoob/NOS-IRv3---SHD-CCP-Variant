@@ -21,3 +21,20 @@ Retrieval uses the inverse-state resonance kernel, which combines magnitude agre
 CIC has been validated at one million documents on the TREC DL 2019 passage benchmark, achieving MRR@10 ≈ 0.90 and nDCG@10 ≈ 0.76. It is fully deterministic, uses no ANN or indexing shortcuts, runs pure full-scan resonance, and stores 4 KB per trace.
 
 (See CIC Benchmarks in /docs)
+
+# 1. Clone repository
+git clone https://github.com/JLNuijens/NOS-IRv3
+cd NOS-IRv3
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Prepare TREC DL 2019 dataset
+python data/prepare_trec_dl2019.py
+
+# 4. Run CIC encoding on documents
+python encoders/cic_encoder.py
+
+# 5. Evaluate retrieval
+python evaluation/eval_trec.py
+
