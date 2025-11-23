@@ -22,6 +22,8 @@ CIC has been validated at one million documents on the TREC DL 2019 passage benc
 
 (See CIC Benchmarks in /docs)
 
+Full Instructions are in docs/usage.md
+
 # 1. Clone repository
 git clone https://github.com/JLNuijens/NOS-IRv3
 cd NOS-IRv3
