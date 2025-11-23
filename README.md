@@ -18,7 +18,7 @@ CIC is the NOS-native information compiler. It transforms text into complex, sea
 
 Retrieval uses the inverse-state resonance kernel, which combines magnitude agreement, phase alignment, seam-relative geometry, and quadrant-conditioned interference, all without gradient descent, vector similarity, probabilistic scoring, or stochastic training.
 
-CIC has been validated at one million documents on the TREC DL 2019 passage benchmark, achieving MRR@10 ≈ 0.90 and nDCG@10 ≈ 0.76. It is fully deterministic, uses no ANN or indexing shortcuts, runs pure full-scan resonance, and stores 4 KB per trace.
+CIC-Lite has been validated at one million documents on the TREC DL 2019 passage benchmark, achieving MRR@10 ≈ 0.90 and nDCG@10 ≈ 0.76. It is fully deterministic, uses no ANN or indexing shortcuts, runs pure full-scan resonance, and stores 4 KB per trace.
 
 (See CIC Benchmarks in /docs)
 
